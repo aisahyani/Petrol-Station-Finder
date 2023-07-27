@@ -1,0 +1,287 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:fadingEdge="horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8E7F4"
+        android:fadingEdge="horizontal"
+        android:orientation="vertical"
+        android:theme="@style/Theme.SignIn">
+
+        <TextView
+            android:id="@+id/headerabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="35dp"
+            android:paddingBottom="30dp"
+            android:text="About Us"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#3239BF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="25dp"
+            android:text="GROUP : RCS2405B  |   PROGRAMME CODE : CS240"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/syafiqa" />
+
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NOOR SYAFIQA BINTI MOHAMAD SAAD"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2020993489"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:text="IT DIRECTOR"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/atiqah" />
+
+        <TextView
+            android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NORATIQAH BINTI MOHD MASDUKI"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019348303"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:text="IT MANAGER"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/arin" />
+
+        <TextView
+            android:id="@+id/n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NUR ARIN DAYANA BINTI YUSRI"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019348459"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:text="IT ASSISTANT"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fatin" />
+
+        <TextView
+            android:id="@+id/n4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NUR FATIN NAJIHAH BINTI FAKHRI"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019324123"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:text="IT OPERATIONS"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/amirah" />
+
+        <TextView
+            android:id="@+id/n5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NURUL AMIRAH BINTI ZAINAL AABIDIN"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019311667"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp"
+            android:text="IT DEVELOPER"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shiffa" />
+
+        <TextView
+            android:id="@+id/n6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="NURUL IYLIA SHIFFA BINTI MOHAMAD SAINI"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2019564847"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="30dp"
+            android:text="IT SPECIALIST"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:typeface="sans" />
+
+
+        <TextView
+            android:id="@+id/hyperlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingTop="30dp"
+            android:text="@string/hyperlink" />
+
+    </LinearLayout>
+
+</ScrollView>

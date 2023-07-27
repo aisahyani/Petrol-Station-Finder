@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sign In</string>
+    <string name="profile_name">Profile</string>
+    <string name="current">Current Location</string>
+    <string name="nearby">Nearby Hospital</string>
+    <string name="about">About Us</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hyperlink">Copyright ©️ 2021 RCS2405B CS240. All rights reserved.
+        <a href="https://github.com/Nor348303/GroupProjectICT602">ICT602 Group Project</a></string>
+</resources>
